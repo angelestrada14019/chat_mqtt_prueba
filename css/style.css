@@ -1,0 +1,49 @@
+.chat_window{
+    height: 30rem;
+    border: 1px solid gray;
+    border-style: line;
+    overflow:scroll;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    background-color: #f2f2f2;
+    
+}
+.center{
+    text-align: center;
+}
+h1{
+    margin: 2rem;
+}
+.label{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.input{
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+.alert{
+    color: red;
+    font-weight: bold;
+}
+.mensajeRecibido{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    background-color: rgba(149, 209, 141, 0.753);
+    font-weight: 600;
+}
+.mensajeEnviado{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid gray;
+    font-size: 1.3rem;
+    background-color: #0d85f56e;
+    color:black;
+    font-weight: 600;
+}
